@@ -1,0 +1,139 @@
+{
+  "name": "NAS816 Demo",
+  "width": 1280,
+  "height": 720,
+  "background": "#0B1726",
+  "grid_size": 20,
+  "elements": [
+    {
+      "id": "label-title",
+      "kind": "label",
+      "x": 36,
+      "y": 24,
+      "w": 240,
+      "h": 24,
+      "label": "ESTACION DEMO NAS 816",
+      "state": "normal",
+      "rotation": 0,
+      "visible": true,
+      "style": {
+        "stroke": "#E6E6E6",
+        "fill": "",
+        "text": "#E6E6E6",
+        "width": 3
+      }
+    },
+    {
+      "id": "track-main",
+      "kind": "track",
+      "x": 120,
+      "y": 220,
+      "w": 900,
+      "h": 12,
+      "label": "VIA I",
+      "state": "normal",
+      "rotation": 0,
+      "visible": true,
+      "style": {
+        "stroke": "#E6E6E6",
+        "fill": "",
+        "text": "#E6E6E6",
+        "width": 4
+      }
+    },
+    {
+      "id": "track-loop",
+      "kind": "track",
+      "x": 120,
+      "y": 320,
+      "w": 900,
+      "h": 12,
+      "label": "VIA II",
+      "state": "normal",
+      "rotation": 0,
+      "visible": true,
+      "style": {
+        "stroke": "#E6E6E6",
+        "fill": "",
+        "text": "#E6E6E6",
+        "width": 4
+      }
+    },
+    {
+      "id": "switch-1",
+      "kind": "switch",
+      "x": 340,
+      "y": 232,
+      "w": 52,
+      "h": 36,
+      "label": "A1",
+      "state": "normal",
+      "rotation": 0,
+      "visible": true,
+      "style": {
+        "stroke": "#E6E6E6",
+        "fill": "",
+        "text": "#E6E6E6",
+        "width": 3
+      }
+    },
+    {
+      "id": "signal-entry",
+      "kind": "signal",
+      "x": 92,
+      "y": 184,
+      "w": 22,
+      "h": 34,
+      "label": "S1",
+      "state": "normal",
+      "signal_variant": "without_aux_focus",
+      "signal_aspect": "clear",
+      "rotation": 0,
+      "visible": true,
+      "style": {
+        "stroke": "",
+        "fill": "",
+        "text": "",
+        "width": 3
+      }
+    },
+    {
+      "id": "signal-exit",
+      "kind": "signal",
+      "x": 1032,
+      "y": 284,
+      "w": 22,
+      "h": 34,
+      "label": "S2",
+      "state": "normal",
+      "signal_variant": "with_aux_focus",
+      "signal_aspect": "rebase_authorized",
+      "rotation": 0,
+      "visible": true,
+      "style": {
+        "stroke": "",
+        "fill": "",
+        "text": "",
+        "width": 3
+      }
+    },
+    {
+      "id": "block-east",
+      "kind": "block",
+      "x": 1090,
+      "y": 205,
+      "w": 110,
+      "h": 48,
+      "label": "BLOQ E",
+      "state": "locked",
+      "rotation": 0,
+      "visible": true,
+      "style": {
+        "stroke": "",
+        "fill": "",
+        "text": "",
+        "width": 3
+      }
+    }
+  ]
+}
